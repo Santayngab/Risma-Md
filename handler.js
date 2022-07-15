@@ -36,8 +36,8 @@ module.exports = {
         global.colong1 = 'Ciss 📸'
         global.colong2 = 'ArullBotz'
         global.kontak2 = [
-        ['6285822347348', 'ArullOfc', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtu.be/9OvUdX8Xuv0', true],
-        ['6285822347348', await this.getName('6285822347348@s.whatsapp.net'), 'Youtube', 'https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg', true], 
+        ['6285822347348', 'ArullOfc', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtu.be/9OvUdX8Xuv0', false],
+        ['6285822347348', await this.getName('6285822347348@s.whatsapp.net'), 'Youtube', 'https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg', false], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -709,8 +709,8 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = async (type, m, conn) => {
     let msg = {
-        rowner: `Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_`,
-        owner: `Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_`,
+        rowner: `Perintah ini hanya dapat digunakan oleh _*Owner!*_`,
+        owner: `Perintah ini hanya dapat digunakan oleh _*Owner!*_`,
         mods: `Perintah ini hanya dapat digunakan oleh *Moderator*`,
         premium: 'Perintah ini hanya untuk member _*Premium*_ !',
         group: `Perintah ini hanya dapat digunakan di grup!`,
