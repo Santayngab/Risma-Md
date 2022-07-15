@@ -31,6 +31,8 @@ Mursid:
 https://github.com/Botwa021
 Jarot:
 https://github.com/Alpiii22
+Arull
+https://github.com/Warikrr
 
 \`\`\`${conn.user.name}\`\`\`
 `
