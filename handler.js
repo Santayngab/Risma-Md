@@ -30,14 +30,14 @@ module.exports = {
         global.namabot = conn.user.name
         global.packname = global.namabot
         global.author = global.data.owner
-        //global.author = '𝐉𝐚𝐫𝐨𝐭'
+        //global.author = 'ArullOfc'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = '© 𝐀𝐥𝐩𝐢 𝐁𝐨𝐭'
+        global.wm = '©BotzArull'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = '𝐀𝐥𝐩𝐢 𝑩𝒐𝒕'
+        global.colong2 = 'ArullBotz'
         global.kontak2 = [
-        ['6285850539404', '𝐉𝐚𝐫𝐨𝐭', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true],
-        ['6285713137903', await this.getName('6285713137903@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝐀𝐥𝐩𝐢 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true], 
+        ['6285822347348', 'ArullOfc', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtu.be/9OvUdX8Xuv0', true],
+        ['6285822347348', await this.getName('6285822347348@s.whatsapp.net'), 'Youtube', 'https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -279,14 +279,14 @@ module.exports = {
                     if (!('sDemote' in chat)) chat.sDemote = ''
                     if (!('desc' in chat)) chat.desc = true
                     if (!('descUpdate' in chat)) chat.descUpdate = true
-                    if (!('stiker' in chat)) chat.stiker = false
+                    if (!('stiker' in chat)) chat.stiker = true
                     if (!('delete' in chat)) chat.delete = false
                     if (!('antiLink' in chat)) chat.antiLink = true
                     if (!isNumber(chat.expired)) chat.expired = 0
                     if (!('antiBadword' in chat)) chat.antiBadword = true
                     if (!('antispam' in chat)) chat.antispam = true
                     if (!('antitroli' in chat)) chat.antitroli = false
-                    if (!('antivirtex' in chat)) chat.antivirtex = false
+                    if (!('antivirtex' in chat)) chat.antivirtex = true
                     if (!('viewonce' in chat)) chat.viewonce = true
                     if (!('nsfw' in chat)) chat.nsfw = false
                     if (!('simi' in chat)) chat.simi = false
@@ -305,14 +305,14 @@ module.exports = {
                     sDemote: '',
                     desc: true,
                     descUpdate: true,
-                    stiker: false,
+                    stiker: true,
                     delete: false,
                     antiLink: true,
                     expired: 0,
                     antiBadword: true,
                     antispam: true,
                     antitroli: false,
-                    antivirtex: false,
+                    antivirtex: true,
                     viewonce: true,
                     nsfw: false,
                     simi: false,
