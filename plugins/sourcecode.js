@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
     // Kalo ngeyel gk bakal gw up sc lgi.
     
     let txt = `
-*Link Sc*\n\nhttps://youtu.be/IL2PZql859c\n\n*Jangan Lupa Subscribe*
+*Link Sc Nih,Via Github*\nhttps://youtu.be/IL2PZql859c\n\n*Jangan Lupa Subscribe*
 `
      conn.reply(m.chat, txt, m)
 }
